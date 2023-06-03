@@ -1,0 +1,157 @@
+!@encoding CP1252
+model Vogel
+uses "mmxprs"
+uses "mmsystem"
+
+
+declarations
+	m: integer !número de plantas
+	n: integer !número de clientes
+end-declarations 
+
+initializations from "Datos_Vogel.txt"
+	m n
+end-initializations
+
+declarations
+	I= 1.. m
+	J= 1.. n
+	K= 1.. m+n
+	K2= 1.. m+n+1
+	I2= 1.. m+1
+	J2= 1.. n+1
+	s: array(I) of integer !Suministro de las plantas
+	d: array(J) of integer !Demandas de los clientes
+	c: array(I,J) of integer !Costos de tranposrte unitario
+	c_aux_i: array(I2,J) of integer !Auxiliar para cuadrar suministros
+	c_aux_j: array(I,J2) of integer !Auxiliat para cuadrar demandas
+	x: array(I,J) of integer !Solucion tipo1
+	x1: array(I2,J) of integer !Solucion tipo2
+	x2: array(I,J2) of integer !Solucion tipo3
+end-declarations
+
+initializations from "Datos_Vogel.txt"
+	d s c
+end-initializations
+
+declarations
+	d_tol: integer
+	s_tol: integer
+	f_obj: integer
+	c_ord: array(I,J) of integer
+	c_aux_i_ord: array(I2,J) of integer
+	c_aux_j_ord: array(I,J2) of integer
+	pen_i: array(I) of integer
+	pen_j: array(J) of integer
+	PEN: array(K) of integer
+	PEN2: array(K2) of integer
+	pen_aux_i: array(I2) of integer
+	pen_aux_j: array(J2) of integer
+end-declarations
+
+!------------  Inicio del codigo  ------------
+inicio:=gettime
+
+!Validar si el problema esta cuadrado
+forall(i in I) s_tol += s(i)
+forall(j in J) d_tol += d(j)
+
+if(s_tol = d_tol) then
+	while(d_tol<>0) do
+		
+		!---   PASO 1 Calcular las penalizaciones   ---
+		
+		!Ordenar los costos de menor a mayor para j
+		forall(j in J) do
+		forall(i in I) do	!inicializando para ordenar
+			ndx(i):= i
+			aux(i):= c(i,j)
+		end-do
+		qsort(SYS_UP, aux, ndx)
+		forall(i in I) c_ord(i,j):= ndx(i)	
+		end-do
+		
+		!Penalizaciones horinzontal para j
+		forall(j in J) do
+			pen_j(j):= c(c_ord(2,j),j) - c(c_ord(1,j),j)
+		end-do
+		
+		!Ordenar los costos de menor a mayor para i
+		forall(i in I) do
+		forall(j in J) do	!inicializando para ordenar
+			ndx2(j):= j
+			aux2(j):= c(i,j)
+		end-do
+		qsort(SYS_UP, aux2, ndx2)
+		forall(j in J) c_ord(i,j):= ndx2(j)	
+		end-do
+		
+		!Penalizaciones vertical para i
+		forall(i in I) do
+			pen_i(i):= c(i,c_ord(i,2)) - c(i,c_ord(i,1))
+		end-do
+		
+		!Penalizaciones
+		forall(k in K) PEN(k):= 0
+		forall(i in I) PEN(i):= pen_i(i)
+		forall(j in J) PEN(j+m):= pen_j(j)
+		!---   PASO 2 Identificar y Asignar   ---
+		
+		forall(k in K) do	!Buscar el valor max de las penalizaciones
+			ndx3(k):= k
+			aux3(k):= PEN(k)
+		end-do
+		qsort(SYS_DOWN, aux3, ndx3)
+		
+		if(ndx3(1) > m) then
+			ndx3(1):= ndx3(1) - m
+		end-if
+		
+		!Asignacion
+		forall(i in I) do
+		forall(j in J) do	!inicializando para ordenar
+			ndx2(j):= j
+			aux2(j):= c(i,j)
+		end-do
+		qsort(SYS_UP, aux2, ndx2)
+		forall(j in J) c_ord(i,j):= ndx2(j)	
+		end-do
+		
+		if(s(ndx3(1)) <= d(c_ord(ndx3(1),ndx(1))) and s(ndx3(1))>0) then
+			x(ndx3(1),ndx(1)):= s(ndx3(1))
+			d_tol -= s(ndx3(1))
+			d(c_ord(ndx3(1),ndx(1))) -= s(ndx3(1))
+			s(ndx3(1)) -= s(ndx3(1))
+			if(s(ndx3(1)) = 0) then
+				forall(j in J) c(ndx3(1),j):= 100
+			end-if	
+			if(d(c_ord(ndx3(1),ndx(1))) = 0 and s(ndx3(1))>0) then
+				forall(i in I) c(i,ndx(1)):= 100
+			end-if
+			
+			else
+				x(ndx3(1),ndx(1)):= d(c_ord(ndx3(1),ndx(1)))
+				f_obj += x(ndx3(1),ndx(1))*c(ndx3(1),ndx(1))
+				d_tol -= d(c_ord(ndx3(1),ndx(1)))
+				d(c_ord(ndx3(1),ndx(1))) -= d(c_ord(ndx3(1),ndx(1)))
+				s(ndx3(1)) -= d(c_ord(ndx3(1),ndx(1)))
+				if(s(ndx3(1)) = 0) then
+					forall(j in J) c(ndx3(1),j):= 100
+				end-if	
+				if(d(c_ord(ndx3(1),ndx(1))) = 0) then
+					forall(i in I) c(i,ndx(1)):= 100
+				end-if
+		end-if
+	end-do
+
+!elif(s_tol > d_tol) then
+	writeln("a")
+else 
+	writeln("a")
+end-if
+
+
+!writeln("El mejor valor encontrado es: ", f_obj(1))
+writeln("el tiempo es: ", gettime-inicio)
+
+end-model

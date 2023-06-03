@@ -1,0 +1,49 @@
+!@encoding CP1252
+model MDKP
+uses "mmxprs", "mmsystem"
+
+declarations
+	n: integer !número de articulos
+	m: integer !número de dimensiones
+end-declarations
+
+initializations from "inst_420_8.txt"
+	n m
+end-initializations
+
+declarations 
+	I=1..n !articulos
+	J=1..m !dimensiones
+	b: array(I) of integer !beneficios de los articulos
+	w: array(I, J) of integer !pesos de los articulos
+	W: array(J) of integer !capacidad de la mochila en sus dimensiones
+	x: array(I) of mpvar
+end-declarations
+
+initializations from "inst_420_8.txt"
+	b w W
+end-initializations
+
+inicio:=gettime
+
+!aquí empieza el modelo
+fobj:=sum(i in I) b(i)*x(i)
+
+!sujeto a:
+
+forall(j in J) sum(i in I) w(i,j)*x(i) <= W(j) !que todos los clientes se asignen
+
+forall(i in I) x(i) is_binary
+
+maximize(fobj) !se manda llamar al optimizador
+
+!Impresión de resultados
+!forall(i in I | getsol(x(i))>0) do
+!	writeln("nos llevamos el articulo ", i)
+!end-do
+
+writeln("El beneficio maximo es: ", getsol(fobj))
+
+writeln("el tiempo es: ", gettime-inicio)
+
+end-model

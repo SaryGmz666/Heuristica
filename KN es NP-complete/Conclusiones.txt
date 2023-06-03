@@ -1,0 +1,3 @@
+CONCLUSIONES
+
+El algoritmo aleatorio es el que tiene un mejor promedio y pareciece que tambien tiene los mejores valores arrojados en la funcion objetivo, en cambio recordemos que las intancias con las cuales se compararon no son exactamente las mismas, solo son semejantes; por lo cual no es posible asegurarlo, pero podemos decir el algoritmo aleatorio es bueno para encontrar en poco tiempo soluciones buenas.

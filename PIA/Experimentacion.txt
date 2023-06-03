@@ -1,0 +1,479 @@
+MKP_109_4_20.txt
+Valor objetivo = 4855
+Articulos: 109  Dimensiones: 4
+El tiempo utilizado es: 0.067 segundos
+Usamos 12 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 1 veces la vecindad 3
+
+MKP_123_1_6.txt
+Valor objetivo = 5745
+Articulos: 123  Dimensiones: 1
+El tiempo utilizado es: 0.025 segundos
+Usamos 2 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_127_2_4.txt
+Valor objetivo = 5875
+Articulos: 127  Dimensiones: 2
+El tiempo utilizado es: 0.038 segundos
+Usamos 1 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_133_4_10.txt
+Valor objetivo = 5972
+Articulos: 133  Dimensiones: 4
+El tiempo utilizado es: 0.116 segundos
+Usamos 8 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_147_3_19.txt
+Valor objetivo = 6825
+Articulos: 147  Dimensiones: 3
+El tiempo utilizado es: 0.096 segundos
+Usamos 7 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_149_1_18.txt
+Valor objetivo = 7212
+Articulos: 149  Dimensiones: 1
+El tiempo utilizado es: 0.044 segundos
+Usamos 2 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_151_1_3.txt
+Valor objetivo = 7278
+Articulos: 151  Dimensiones: 1
+El tiempo utilizado es: 0.052 segundos
+Usamos 3 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_166_1_11.txt
+Valor objetivo = 8102
+Articulos: 166  Dimensiones: 1
+El tiempo utilizado es: 0.055 segundos
+Usamos 5 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_191_3_12.txt
+Valor objetivo = 8624
+Articulos: 191  Dimensiones: 3
+El tiempo utilizado es: 0.203 segundos
+Usamos 11 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_205_3_1.txt
+Valor objetivo = 9093
+Articulos: 205  Dimensiones: 3
+El tiempo utilizado es: 0.35 segundos
+Usamos 31 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_223_2_13.txt
+Valor objetivo = 10457
+Articulos: 223  Dimensiones: 2
+El tiempo utilizado es: 0.711 segundos
+Usamos 16 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 1 veces la vecindad 3
+
+MKP_226_1_8.txt
+Valor objetivo = 10962
+Articulos: 226  Dimensiones: 1
+El tiempo utilizado es: 0.312 segundos
+Usamos 5 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_240_3_14.txt
+Valor objetivo = 10955
+Articulos: 240  Dimensiones: 3
+El tiempo utilizado es: 0.493 segundos
+Usamos 8 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_246_3_9.txt
+Valor objetivo = 11164
+Articulos: 246  Dimensiones: 3
+El tiempo utilizado es: 0.523 segundos
+Usamos 34 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_248_1_2.txt
+Valor objetivo = 12235
+Articulos: 248  Dimensiones: 1
+El tiempo utilizado es: 0.49 segundos
+Usamos 6 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_248_2_17.txt
+Valor objetivo = 11593
+Articulos: 248  Dimensiones: 2
+El tiempo utilizado es: 0.467 segundos
+Usamos 26 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_261_3_7.txt
+Valor objetivo = 11791
+Articulos: 261  Dimensiones: 3
+El tiempo utilizado es: 0.532 segundos
+Usamos 23 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_267_4_5.txt
+Valor objetivo = 12112
+Articulos: 267  Dimensiones: 4
+El tiempo utilizado es: 0.969 segundos
+Usamos 18 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_278_2_15.txt
+Valor objetivo = 12861
+Articulos: 278  Dimensiones: 2
+El tiempo utilizado es: 0.547 segundos
+Usamos 7 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_284_2_16.txt
+Valor objetivo = 12863
+Articulos: 284  Dimensiones: 2
+El tiempo utilizado es: 0.469 segundos
+Usamos 2 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_552_8_12.txt
+Valor objetivo = 24373
+Articulos: 552  Dimensiones: 8
+El tiempo utilizado es: 8.657 segundos
+Usamos 57 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_594_5_17.txt
+Valor objetivo = 25964
+Articulos: 594  Dimensiones: 5
+El tiempo utilizado es: 7.047 segundos
+Usamos 69 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_637_4_8.txt
+Valor objetivo = 28456
+Articulos: 637  Dimensiones: 4
+El tiempo utilizado es: 7.416 segundos
+Usamos 9 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_660_4_14.txt
+Valor objetivo = 29739
+Articulos: 660  Dimensiones: 4
+El tiempo utilizado es: 8.231 segundos
+Usamos 55 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_720_14_8.txt
+Valor objetivo = 31850
+Articulos: 720  Dimensiones: 14
+El tiempo utilizado es: 46.824 segundos
+Usamos 112 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 1 veces la vecindad 3
+
+MKP_733_8_20.txt
+Valor objetivo = 32232
+Articulos: 733  Dimensiones: 8
+El tiempo utilizado es: 36.324 segundos
+Usamos 122 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 1 veces la vecindad 3
+
+MKP_748_9_16.txt
+Valor objetivo = 33255
+Articulos: 748  Dimensiones: 9
+El tiempo utilizado es: 28.683 segundos
+Usamos 49 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_762_11_16.txt
+Valor objetivo = 33305
+Articulos: 762  Dimensiones: 11
+El tiempo utilizado es: 31.228 segundos
+Usamos 36 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_790_3_19.txt
+Valor objetivo = 35962
+Articulos: 790  Dimensiones: 3
+El tiempo utilizado es: 12.766 segundos
+Usamos 39 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_819_11_1.txt
+Valor objetivo = 36316
+Articulos: 819  Dimensiones: 11
+El tiempo utilizado es: 37.632 segundos
+Usamos 44 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_848_9_13.txt
+Valor objetivo = 37758
+Articulos: 848  Dimensiones: 9
+El tiempo utilizado es: 34.385 segundos
+Usamos 76 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_905_5_9.txt
+Valor objetivo = 40621
+Articulos: 905  Dimensiones: 5
+El tiempo utilizado es: 25.359 segundos
+Usamos 69 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_923_12_12.txt
+Valor objetivo = 40817
+Articulos: 923  Dimensiones: 12
+El tiempo utilizado es: 58.017 segundos
+Usamos 53 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_938_9_7.txt
+Valor objetivo = 41060
+Articulos: 938  Dimensiones: 9
+El tiempo utilizado es: 97.268 segundos
+Usamos 114 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 1 veces la vecindad 3
+
+MKP_945_5_4.txt
+Valor objetivo = 42290
+Articulos: 945  Dimensiones: 5
+El tiempo utilizado es: 28.499 segundos
+Usamos 61 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_958_12_9.txt
+Valor objetivo = 42365
+Articulos: 958  Dimensiones: 12
+El tiempo utilizado es: 114.241 segundos
+Usamos 88 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 1 veces la vecindad 3
+
+MKP_962_9_1.txt
+Valor objetivo = 42410
+Articulos: 962  Dimensiones: 9
+El tiempo utilizado es: 78.473 segundos
+Usamos 138 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 1 veces la vecindad 3
+
+MKP_986_6_20.txt
+Valor objetivo = 44116
+Articulos: 986  Dimensiones: 6
+El tiempo utilizado es: 37.26 segundos
+Usamos 66 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_993_7_10.txt
+Valor objetivo = 43599
+Articulos: 993  Dimensiones: 7
+El tiempo utilizado es: 44.85 segundos
+Usamos 111 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_995_4_18.txt
+Valor objetivo = 44404
+Articulos: 995  Dimensiones: 4
+El tiempo utilizado es: 46.869 segundos
+Usamos 87 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 1 veces la vecindad 3
+
+MKP_1007_11_15.txt
+Valor objetivo = 44060
+Articulos: 1007 Dimensiones: 11
+El tiempo utilizado es: 122.515 segundos
+Usamos 145 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 1 veces la vecindad 3
+
+MKP_1011_9_10.txt
+Valor objetivo = 44515
+Articulos: 1011 Dimensiones: 9
+El tiempo utilizado es: 59.047 segundos
+Usamos 29 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_1015_5_11.txt
+Valor objetivo = 45690
+Articulos: 1015 Dimensiones: 5
+El tiempo utilizado es: 64.14 segundos
+Usamos 110 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 1 veces la vecindad 3
+
+MKP_1025_7_5.txt
+Valor objetivo = 45600
+Articulos: 1025 Dimensiones: 7
+El tiempo utilizado es: 49.623 segundos
+Usamos 30 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_1043_4_2.txt
+Valor objetivo = 47436
+Articulos: 1043 Dimensiones: 4
+El tiempo utilizado es: 32.315 segundos
+Usamos 44 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_1046_3_6.txt
+Valor objetivo = 47141
+Articulos: 1046 Dimensiones: 3
+El tiempo utilizado es: 26.882 segundos
+Usamos 34 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_1089_4_15.txt
+Valor objetivo = 49292
+Articulos: 1089 Dimensiones: 4
+El tiempo utilizado es: 36.964 segundos
+Usamos 77 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_1091_14_11.txt
+Valor objetivo = 48117
+Articulos: 1091 Dimensiones: 14
+El tiempo utilizado es: 109.881 segundos
+Usamos 98 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_1125_9_19.txt
+Valor objetivo = 49874
+Articulos: 1125 Dimensiones: 9
+El tiempo utilizado es: 84.95 segundos
+Usamos 66 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_1189_10_13.txt
+Valor objetivo = 52444
+Articulos: 1189 Dimensiones: 10
+El tiempo utilizado es: 109.304 segundos
+Usamos 103 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_1193_6_3.txt
+Valor objetivo = 52715
+Articulos: 1193 Dimensiones: 6
+El tiempo utilizado es: 66.656 segundos
+Usamos 69 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_1204_8_2.txt
+Valor objetivo = 53480
+Articulos: 1204 Dimensiones: 8
+El tiempo utilizado es: 93.444 segundos
+Usamos 127 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_1260_6_6.txt
+Valor objetivo = 56018
+Articulos: 1260 Dimensiones: 6
+El tiempo utilizado es: 78.98 segundos
+Usamos 136 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_1286_11_18.txt
+Valor objetivo = 56719
+Articulos: 1286 Dimensiones: 11
+El tiempo utilizado es: 148.312 segundos
+Usamos 94 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_1300_10_17.txt
+Valor objetivo = 57456
+Articulos: 1300 Dimensiones: 10
+El tiempo utilizado es: 140.694 segundos
+Usamos 91 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_1336_10_7.txt
+Valor objetivo = 58690
+Articulos: 1336 Dimensiones: 10
+El tiempo utilizado es: 153.263 segundos
+Usamos 179 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_1358_6_5.txt
+Valor objetivo = 60365
+Articulos: 1358 Dimensiones: 6
+El tiempo utilizado es: 97.64 segundos
+Usamos 88 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_1449_10_3.txt
+Valor objetivo = 63861
+Articulos: 1449 Dimensiones: 10
+El tiempo utilizado es: 191.412 segundos
+Usamos 186 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_1533_9_4.txt
+Valor objetivo = 67915
+Articulos: 1533 Dimensiones: 9
+El tiempo utilizado es: 210.405 segundos
+Usamos 108 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3
+
+MKP_1560_11_14.txt
+Valor objetivo = 69280
+Articulos: 1560 Dimensiones: 11
+El tiempo utilizado es: 267.196 segundos
+Usamos 85 veces la vecindad 1
+Usamos 0 veces la vecindad 2
+Usamos 0 veces la vecindad 3

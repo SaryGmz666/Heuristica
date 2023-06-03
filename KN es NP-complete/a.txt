@@ -1,0 +1,63 @@
+Dado un conjunto de articulos $I$, donde cada articulo $i$ se le asocia un peso $w_i$ y un beneficio $b_i$ y se tiene que el recipiente tiene una capacidad de $W$ y sea $k \in \mathbb{R}$ ¿existe un subconjunto $S \subseteq I$ tal que \sum_{i \in S} w_i  \leq W$ y \sum_{i \in S} b_i \geq k?
+
+Primero validaremos que efectivamente Knapsack es NP.\\
+Veace que para responder "YES" al problema de desicion tenemos que validar que se cumpla que $\sum_{i \in S} w_i  \leq W$ y $\sum_{i \in S} b_i \geq k$ esto es,  $\mathcal{O}(|S|)$, el cual se considera polinomial. Por tanto decimos que K  Knapsack es NP.
+
+PD. Que existe una reducción polinómica del problema de Partición a Knapsack. Basta con mostrar que existe una reducción en tiempo polinómico \mathcal{Q}(\ast) tal que \mathcal{Q}(X) es una instancia "YES" a Knapsack si y solo si $ X$ es una instancia "YES" a Partición. 
+
+Supongamos que nos dan $a_1, a_2, . . . , a_n$ para el problema de Partición, consideremos el siguiente problema de Knapsack como
+$$s_i=a_i \hspace{.5cm} b_i= a_i  \hspace{.5cm} \forall i=1,2,...,n$$ 
+$$W=k=  1/2 \sum_{i=1}^n a_i $$
+Vease que el proceso que convierte el problema de partición en el problema de Knapsack $\mathcal{Q}(\ast)=\mathcal{Q}(n)$ el cual es un proceso polinómico del tamaño de la entrada.
+
+$\Longrightarrow)$ Si $X$ es una instancia "YES" para Partition, entonces $X$ es una instancia "YES" para Knapsack
+
+Si $X$ es una instancia "YES" para el problema de la Partición, existen $S$ y $T \subset I$ tales que
+$$\sum_{i \in S} a_i =\sum_{i \in T} a_i = \frac{1}{2} \sum_{i=1}^n a_i$$
+Si nuestra mochila contiene los elementos de $S$, se tiene que
+$$\sum_{i \in S} a_i = \sum_{i \in S} w_i = W$$
+$$\sum_{i \in S} a_i = \sum_{i \in S} b_i = k $$
+Por lo tanto, $\mathcal{Q}(X)$ es una instancia "YES" para el problema Knapsack
+
+$\Leftarrow)$ Si $X$ es una instancia "YES" para Knapsack, entonces $X$ es una instancia "YES" para Partition\\
+Si $\mathcal{O}(X)$ es una instancia "YES" para el problema Knapsack, con el conjunto $S\subset I$, definamos $T= I -S$ Tenemos que
+$$\sum_{i \in S} w_i = \sum_{i \in S} a_i  \leq W = \frac{1}{2} \sum_{i=1}^n a_i$$
+$$ \sum_{i \in S} b_i =  \sum_{i \in S} a_i  \geq k  = \frac{1}{2} \sum_{i=1}^n a_i $$
+Esto implica que 
+$$ \sum_{i \in S} a_i = \frac{1}{2} \sum_{i=1}^n a_i $$
+$$ \sum_{i \in T} a_i = \sum_{i=1}^n a_i - \frac{1}{2} \sum_{i=1}^n a_i = \frac{1}{2} \sum_{i=1}^n a_i$$
+Por lo tanto, $\{S, T\}$ es la partición deseada, y $X$ es una instancia "YES" para Partition.\\
+$\hspace{.5cm}\therefore$ Knapsack es NP-complete. 
+
+
+A la inversa, si Q(X) es una instancia "Sí" para el problema de Knapsack, con el conjunto elegido S, sea
+T = {1, 2, ..n} - S. Tenemos 
+ Esto implica que P
+
+
+
+
+
+
+
+
+
+------------------------------BASURERO------------------------------------
+\textit{Demostración:}\\\\
+
+%Una diapositiva con dos columnas
+	\begin{columns}
+		%Columna Izquierda
+		\column[t]{7cm}
+			Primero validaremos que efectivamente Knapsack es NP.\\
+            Véase que para responder "YES" al problema de decisión tenemos que validar que se cumpla que $\sum_{i \in S} w_i  \leq W$ y $\sum_{i \in S} b_i \geq k$ esto es,  $\mathcal{O}(|S|)$, el cual se considera polinomial. Por tanto decimos que Knapsack es NP.
+
+		%Columna Derecha
+		\column[t]{5cm}
+			\begin{figure}
+			    \centering
+			    \includegraphics[scale=0.55]{NP KN.png}
+			\end{figure}
+	\end{columns}
+\end{frame}
+
